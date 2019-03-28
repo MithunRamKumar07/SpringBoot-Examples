@@ -1,2 +1,7 @@
 # Projects
-This folder has the set of projects that are new in the industry
+Collection of projects that are developed using 
+- Java
+- SpringBoot Microservices
+- Spring Cloud(Eureka)
+- ActiveMQ
+- MySQL DB
