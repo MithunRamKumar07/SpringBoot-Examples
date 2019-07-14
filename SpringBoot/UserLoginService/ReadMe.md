@@ -1,11 +1,13 @@
-# Microservice that validates the user using Spring Security Framework
+# User Login Service
 
+## Microservice built on SpringBoot to validate the login process of the user. Includes the Crud Operations for user entity as well.
 
-### Technolgies Used
+## TECHNOLOGIES USED
 
-Java 1.8
-SpringBoot
-Maven
-H2-Database
-Spring Data Jpa
-Spring Security
+### Java 1.8
+### SpringBoot
+### Maven
+### H2-Database
+### Spring Data Jpa
+### Spring Security
+### Swagger
