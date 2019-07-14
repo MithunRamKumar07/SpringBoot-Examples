@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+   <responseXml>
+      <getCustomerInfoResponse>
+         <getCustomerInfoResult>
+            <custInfo>
+               <address_Line2 />
+               <address_Line3 />
+               <contact_Info_V7>
+                  <comm_Channel>ByEmail</comm_Channel>
+                  <email_List_V7>
+                     <email_List_Item_V7>
+                        <email>This_Is_A_Test@Gmail.Com</email>
+                     </email_List_Item_V7>
+                  </email_List_V7>
+                  <fax_List_V7>
+                     <fax_List_Item_V7>
+                        <fax />
+                     </fax_List_Item_V7>
+                  </fax_List_V7>
+                  <office_Phone_List_V7>
+                     <office_Phone_List_Item_V7>
+                        <office_Phone />
+                     </office_Phone_List_Item_V7>
+                  </office_Phone_List_V7>
+                  <phone_List_V7>
+                     <phone_List_Item_V7>
+                        <phone>22222222</phone>
+                     </phone_List_Item_V7>
+                  </phone_List_V7>
+                  <sms_List_V7>
+                     <mob_Oper_Code>Orangemu</mob_Oper_Code>
+                     <mob_Oper_Iso>48</mob_Oper_Iso>
+                     <sms_Formatted>+230123456789</sms_Formatted>
+                     <sms_List_Item_V7>
+                        <sms>+230123456789</sms>
+                     </sms_List_Item_V7>
+                  </sms_List_V7>
+               </contact_Info_V7>
+               <country>Country</country>
+               <country_Code>Mu</country_Code>
+               <country_Code_Num>480</country_Code_Num>
+               <cust_No>23423</cust_No>
+               <despatch_Code>Ma</despatch_Code>
+               <is_Individual>Y</is_Individual>
+               <nationality>Mu</nationality>
+               <nationality_Desc>Mauritius</nationality_Desc>
+               <nationality_Num>480</nationality_Num>
+               <post_Code />
+               <short_Name>Short.Name1673948</short_Name>
+               <street_Addr>Street-Addr</street_Addr>
+               <town_Country>Curepipe</town_Country>
+            </custInfo>
+            <errorMsg />
+            <return_Code>0</return_Code>
+            <warning_Msg_List />
+         </getCustomerInfoResult>
+      </getCustomerInfoResponse>
+   </responseXml>
+</response>

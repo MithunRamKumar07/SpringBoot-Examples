@@ -1,0 +1,59 @@
+{
+	"responseXml": {
+		"getCustomerInfoResponse": {
+			"getCustomerInfoResult": {
+				"return_Code": "0",
+				"errorMsg": [],
+				"warning_Msg_List": [],
+				"custInfo": {
+					"cust_No": "23423",
+					"short_Name": "Short.Name1673948",
+					"is_Individual": "Y",
+					"nationality": "Mu",
+					"nationality_Num": "480",
+					"nationality_Desc": "Mauritius",
+					"street_Addr": "Street-Addr",
+					"address_Line2": [],
+					"address_Line3": [],
+					"town_Country": "Curepipe",
+					"post_Code": [],
+					"country": "Country",
+					"country_Code": "Mu",
+					"country_Code_Num": "480",
+					"despatch_Code": "Ma",
+					"contact_Info_V7": {
+						"comm_Channel": "ByEmail",
+						"phone_List_V7": {
+							"phone_List_Item_V7": {
+								"phone": "22222222"
+							}
+						},
+						"office_Phone_List_V7": {
+							"office_Phone_List_Item_V7": {
+								"office_Phone": []
+							}
+						},
+						"fax_List_V7": {
+							"fax_List_Item_V7": {
+								"fax": []
+							}
+						},
+						"sms_List_V7": {
+							"mob_Oper_Iso": "48",
+							"mob_Oper_Code": "Orangemu",
+							"sms_Formatted": "+230123456789",
+							"sms_List_Item_V7": {
+								"sms": "+230123456789"
+							}
+						},
+						"email_List_V7": {
+							"email_List_Item_V7": {
+								"email": "This_Is_A_Test@Gmail.Com"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
