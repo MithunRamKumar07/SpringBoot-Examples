@@ -1,6 +1,6 @@
-# USER LOGIN SERVICE
+# User Login Service
 
-## Microservice built on SpringBoot to validate the login process of the user. Includes the Crud Operations for user entity as well.
+### Microservice built on SpringBoot to validate the login process of the user. Includes the Crud Operations for user entity as well.
 
 ## Technolgies Used
 
