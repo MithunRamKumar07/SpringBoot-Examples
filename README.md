@@ -5,3 +5,5 @@ Collection of projects that are developed using
 - Spring Cloud(Eureka)
 - ActiveMQ
 - MySQL DB
+- H2 database
+- Swagger 2.0
