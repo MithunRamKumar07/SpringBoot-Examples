@@ -1,6 +1,6 @@
 # Projects
 Collection of projects that are developed using 
-- Java
+- Java Version 1.8
 - SpringBoot Microservices
 - Spring Cloud(Eureka)
 - ActiveMQ
