@@ -24,7 +24,7 @@
 ## How to Build
 
 * Build Tool Used : maven
-* Build Command   : ** clean install ** (from STS), ** mvn clean install** (from cmd Prompt)
+* Build Command   : **clean install** (from STS)/ **mvn clean install** (from cmd Prompt)
 
 
 ## How to Launch 
