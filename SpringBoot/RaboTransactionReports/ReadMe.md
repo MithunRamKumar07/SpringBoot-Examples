@@ -1,6 +1,6 @@
-# RABO BANK TRANSACTION REPORTS
+# BANK TRANSACTION REPORTS
 
-* RaboTransactionReports is a microservice that exposes rest endpoints to generate a transaction report based file input provided.
+* TransactionReports is a microservice that exposes rest endpoints to generate a transaction report based file input provided.
 * The transaction report generated has the list of valid and Invalid Transactions.
 * Transaction are valid only if :
 	 The transaction reference number is unique and 
