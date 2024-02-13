@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="ApplicationLogAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>{"traceId": "%X{traceId}", "environment":"%X{trace:environment}","type": "application", "datetime": "%date{"yyyy-MM-dd'T'HH:mm:ss,SSSXXX"}", "class": "%logger", "loglevel": "%level",  "message": "%replace(%msg){'"', '\\"'}"}%n
+            </Pattern>
+        </encoder>
+    </appender>
+</configuration>
