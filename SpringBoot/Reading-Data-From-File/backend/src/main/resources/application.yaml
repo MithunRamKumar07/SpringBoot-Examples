@@ -1,0 +1,20 @@
+#Framework Config
+server:
+  servlet:
+    context-path: /assessment
+spring:
+  application:
+    name: Assessment-Application
+  profiles:
+    active: secure,performanceLogging
+    default: secure,performanceLogging
+# User defined Config
+assessment:
+  log:
+    file:
+      path: classpath:logFile-2018-09-10.log
+  recipe:
+    file:
+      path: classpath:receipe.json
+
+

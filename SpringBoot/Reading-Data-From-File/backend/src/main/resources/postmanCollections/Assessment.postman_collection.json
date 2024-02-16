@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "0e1d4d3d-7d81-4d24-b594-da4004fae2f6",
+		"name": "Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8047554"
+	},
+	"item": [
+		{
+			"name": "RecipeTest",
+			"item": [
+				{
+					"name": "getAllRecipes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostAddressLocal}}/assessment/recipes/getAll",
+							"host": [
+								"{{hostAddressLocal}}"
+							],
+							"path": [
+								"assessment",
+								"recipes",
+								"getAll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRecipesByIngredients",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\"onions\",\"butter\"]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{hostAddressLocal}}/assessment/recipes/getByIngredients",
+							"host": [
+								"{{hostAddressLocal}}"
+							],
+							"path": [
+								"assessment",
+								"recipes",
+								"getByIngredients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRecipesByIngredients-InvalidRequest",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\"dsfg\"]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{hostAddressLocal}}/assessment/recipes/getByIngredients",
+							"host": [
+								"{{hostAddressLocal}}"
+							],
+							"path": [
+								"assessment",
+								"recipes",
+								"getByIngredients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRecipesByIngredients-InvalidIngredient",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\"onion\"]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{hostAddressLocal}}/assessment/recipes/getByIngredients",
+							"host": [
+								"{{hostAddressLocal}}"
+							],
+							"path": [
+								"assessment",
+								"recipes",
+								"getByIngredients"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LogAnalyserTest",
+			"item": [
+				{
+					"name": "logAnalyser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostAddressLocal}}/assessment/logAnalyser/analyse/DEBUG",
+							"host": [
+								"{{hostAddressLocal}}"
+							],
+							"path": [
+								"assessment",
+								"logAnalyser",
+								"analyse",
+								"DEBUG"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logAnalyser-InvalidRequest",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hostAddressLocal}}/assessment/logAnalyser/analyse/DFJK",
+							"host": [
+								"{{hostAddressLocal}}"
+							],
+							"path": [
+								"assessment",
+								"logAnalyser",
+								"analyse",
+								"DFJK"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

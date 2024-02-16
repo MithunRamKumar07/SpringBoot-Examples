@@ -1,0 +1,1569 @@
+{
+    "logDetails": [
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceId() with argument[s] = [20155210180947]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@60b81f145 pairs: {GET /version.jsp?version=3.2.5&m=084772e2-bcd1-4770-897a-2bfeaffbb83b&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_DESCRIPTION, [sekhar]]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.AccountReceivableResource.adjustmentReversal() with argument[s] = [11]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@5e0a49625 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 11:38:41 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: getXmlDocument called with <?xml version=\"1.0\" standalone=\"no\"?><NetConnectResponse xmlns=\"http://www.experian.com/NetConnectResponse\"><CompletionCode>0000</CompletionCode><ReferenceId>20153110200977</ReferenceId><TransactionId>20673443</TransactionId><HostResponse><![CDATA[1100042091015100114TTX1061420153110200977@1110048AC 1XN  YXXXXXXX12HELEN,WILLIE08Approved@1200034MTRMS0843768664C7         @12500220288P01121004W@3220018 666438798@335008814WILLIE S HELEN1964A2167138633147U A2167138642022I A2165128697979P E61207081964@3360081021307152003700820S 5115002371202 AURORA ST  /HOUSTON TX 770091739D207201@361002844160044 AKA: FILICE@361002844160044 AKA: FELICE@36100207708ID MATCH@36100485236ACCOUNTS CLOSED BY CONSUMER 02 TIMES@382006099        001 C2260601150000006011500000C31219771985@950001601300533@]]></HostResponse></NetConnectResponse>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.adjustmentReversal() with result = null",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventssByCustomerAccountId() with result = <200 OK,[Events{id=1, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='null'}],{X-Total-Count=[1], link=[</app/rest/eventssByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</app/rest/eventssByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@4aa1e7aa5 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 11:00:47 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: getXmlDocument called with <?xml version=\"1.0\" standalone=\"no\"?><NetConnectResponse xmlns=\"http://www.experian.com/NetConnectResponse\"><CompletionCode>0000</CompletionCode><ReferenceId>20153210200983</ReferenceId><TransactionId>20673457</TransactionId><HostResponse><![CDATA[1100042091015100209TTX1061420153210200983@1110055AB 0X   NXXXXXXX19KJLKJLJLK,SAFADFASF08Approved@13000230657P89719492EV@361007237600037 INPUT YOB NOT USED CONSUMER YOB NOT IN RANGE (14 - 120)@361006230500030 CKPT: INPUT SSN INVALID-9 DIGITS ARE THE SAME@361004607340007 *****  NO RECORD FOUND  *****@382006099        001 C2260000000000206011500000C41214      @950001600800376@]]></HostResponse></NetConnectResponse>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventssByCustomerAccountId() with result = <200 OK,[],{X-Total-Count=[0], link=[</app/rest/eventssByCustomerAccountId?page=0&per_page=5>; rel=\"last\",</app/rest/eventssByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with result = null",
+            "messageOccurrenceCount": 28
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with argument[s] = [77011, 5490]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: getStringFromDom called",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching customers by using first name and customer Type",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: org.springframework.boot.actuate.audit.AuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=Thu Sep 10 18:37:32 IST 2015, principal=<unknown>, type=AUTHENTICATION_FAILURE, data={type=org.springframework.security.authentication.AuthenticationCredentialsNotFoundException, message=An Authentication object was not found in the SecurityContext}]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventTypesResource.getAll() with result = [EventTypes{id=1, name='Account Creation', eventType='account creation', description=' The account has been created for user %s account id  %s  ', category='customer', type='account'}, EventTypes{id=2, name='Deposit Payment', eventType='deposit payment', description=' Deposit has been payed for the amount  %s', category='customer', type='account'}, EventTypes{id=3, name='Cancel Enrollment', eventType='cancel enrollment', description='Enrollment cancellation request received on %s for ESI ID %s', category='customer', type='account'}, EventTypes{id=4, name='Invoice Payment', eventType='invoice payment', description=' Received amount %s on %s by %s payment', category='customer', type='account'}, EventTypes{id=5, name='Address Change', eventType='address change', description='Address has been changed with new address %s', category='customer', type='account'}, EventTypes{id=6, name='Email Change', eventType='email change', description=' Customer Email has been changed with new email %s', category='customer', type='account'}, EventTypes{id=7, name='New Service Connection', eventType='new service connection', description='Adding a New service connection having ESI ID %s has been Initiated on %s', category='customer', type='contract'}, EventTypes{id=8, name='Contract Renewal', eventType='contract renewal', description='Contract %s has been renewed with rateplan id %s', category='customer', type='contract'}, EventTypes{id=9, name='Service Order Moveout', eventType='service order moveout', description='Received move out request for the ESI ID %s on %s', category='customer', type='contract'}, EventTypes{id=10, name='Service Order Meter Read', eventType='service order meter read', description=' Service order meter read request is received for the ESI ID %s', category='customer', type='contract'}, EventTypes{id=11, name='Update Payment Preferences', eventType='update payment preferences', description='Payment preferences has been updated %s', category='customer', type='account'}, EventTypes{id=12, name='Update Alert Preferences', eventType='update alert preferences', description=' Alert preferences %s', category='customer', type='account'}, EventTypes{id=13, name='Portal Login', eventType='portal login', description='Portal has been logged in with id %s', category='customer', type='account'}, EventTypes{id=14, name='Portal Logout', eventType='portal logout', description='Portal has been logged out with id %s', category='customer', type='account'}, EventTypes{id=15, name='Portal Change Password', eventType='portal change password', description='Password has been changed', category='customer', type='account'}, EventTypes{id=16, name='DNP Notice', eventType='DNP Notice', description='DNP Notice for ESI ID is %s dispatched to customer', category='customer', type='contract'}, EventTypes{id=17, name='DNP Ignored', eventType='DNP Ignored', description='DNP  is ignored for the ESI ID %s', category='customer', type='contract'}, EventTypes{id=18, name='Disconnect', eventType='Disconnect', description='Connection with ESI ID %s has been disconnected', category='customer', type='contract'}, EventTypes{id=19, name='Reconnect', eventType='Reconnect', description='Connection  with ESI ID %s has been reconnected', category='customer', type='contract'}, EventTypes{id=20, name='Initiate DPP', eventType='Inititate DPP', description='Deferred Payment Plan with %s installment amount for %s installments has been initiated ', category='customer', type='account'}, EventTypes{id=21, name='Invoice Reversal', eventType='Invoice Reversal', description='Invoice %s has been reversed', category='customer', type='account'}, EventTypes{id=22, name='Adjustment Reversal', eventType='Adjustment Reversal', description='Adjustment %s has been reversed for amount %s', category='customer', type='account'}, EventTypes{id=23, name='Payment Reversal', eventType='Payment Reversal', description='Payment amount %s has been reversed', category='customer', type='account'}, EventTypes{id=24, name='Credit Check', eventType='Credit Check', description='Credit %s has been checked', category='customer', type='account'}, EventTypes{id=25, name='Move In Switch', eventType='Move-in/Switch', description='Switch %s has been moved in', category='customer', type='account'}, EventTypes{id=26, name='Switch Response', eventType='Switch Response', description='Switch %s has been responded ', category='customer', type='account'}, EventTypes{id=27, name='Invoice Generation', eventType='Invoice generation', description='Invoice %s has been generated for amount %s pay by date %s', category='customer', type='account'}, EventTypes{id=28, name='Contract Expired', eventType='Contract expired', description='Contract with ESI ID %s has been expired moving customer to default variable plan', category='customer', type='contract'}, EventTypes{id=29, name='Default Contract assigned', eventType='Default contract assigned', description='Default contract %s has been assigned', category='customer', type='account'}, EventTypes{id=30, name='Add Manual Adjustment', eventType='Add manual adjustment', description='adjustment %s for amount %s has been added', category='customer', type='account'}]",
+            "messageOccurrenceCount": 23
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventsByCustomerAccountId() with result = <200 OK,[Events{id=2, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='adjustment Reconnect Fee for amount 10 has been added'}, Events{id=1, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='adjustment Adjustment for amount 10 has been added'}],{X-Total-Count=[2], link=[</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 19
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, null, [1]]",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventsByCustomerAccountId() with result = <200 OK,[],{X-Total-Count=[0], link=[</app/rest/eventsByCustomerAccountId?page=0&per_page=5>; rel=\"last\",</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with result = <200 OK,[],{}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.search() with result = <200 OK,[Events{id=1, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='adjustment Adjustment for amount 10 has been added'}, Events{id=2, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='adjustment Reconnect Fee for amount 10 has been added'}],{X-Total-Count=[2], link=[</api/rest/events?page=1&per_page=5>; rel=\"last\",</api/rest/events?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getDbHost() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.getAccountReceivablesByCustomerAccountId() with result = <200 OK,[AccountReceivable{id=11, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=10, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=8, customerAccountId='2', transactionDate='2015-02-19', transactionType='invoice', transactionNumber='5', transactionAmount='286.57', beginDate='2015-01-17', endDate='2015-02-18', kwhAmount='null', previousBalance='29.63', currentBalance='316.20', esiId'null', description='null'}, AccountReceivable{id=5, customerAccountId='2', transactionDate='2015-02-03', transactionType='payment', transactionNumber='2232307564', transactionAmount='-150.00', beginDate='null', endDate='null', kwhAmount='null', previousBalance='179.63', currentBalance='29.63', esiId'null', description='null'}, AccountReceivable{id=2, customerAccountId='2', transactionDate='2015-01-17', transactionType='invoice', transactionNumber='2', transactionAmount='179.63', beginDate='2014-12-15', endDate='2015-01-16', kwhAmount='null', previousBalance='0.00', currentBalance='179.63', esiId'null', description='null'}],{X-Total-Count=[5], link=[</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 3
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@1919edcc5 pairs: {GET /version.jsp?version=3.2.5&m=39a92ba1-1dc6-48f7-9dd6-0e310c7524fa&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getUserName() with result = fluentgrid",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, null, [2]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.saveCustomerPaymentOptions() with argument[s] = [CustomerAccount{id=5, firstName='safadfasf', lastName='kjlkjljlk', dob='2015-09-09', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='sdfds@sdfd.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='350', brokerId='null', status='active', dnpEligible='null', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, com.fluentgrid.repapp.service.dto.PaymentsDTO@b797c0c]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching Customers with search criteria: BY_DESCRIPTION_AND_EVENT_TYPE",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_EVENT_TYPE, [11]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " PaymentService:  save transaction details com.fluentgrid.repapp.payment.PaymentGatewayResults@185fafd1 ",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " MetricsConfiguration: Registering JVM gauges",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@137d04d8",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectCreditCheck: getCreditScoreOfCustomer called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@3f21cd6d",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_EVENT_TYPE, [19]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: ConnectCheckTransaction execute is called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@3f21cd6d",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@70840a5a]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.PaymentService.saveEnrolDepoistPaymentTransaction() with result = null",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_DESCRIPTION, [reconnect]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectHttpClient: getNetConnectData called with https://dm1.experian.com/netconnect2_0Demo/servlets/NetConnectServlet",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceId() with result = null",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.geteventsByCustomerAccountId() with argument[s] = [5, 1, 5]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.TdspEsiidResource.getEsiid() with argument[s] = [1008901006900889980114]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.ContractResource.getContracts() with argument[s] = [5]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.CustomerAccountResource.getAll() with result = <200 OK,[CustomerAccount{id=1, firstName='James', lastName='smith', dob='1975-03-23', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='james.smith@smithjames.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='yes', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, CustomerAccount{id=2, firstName='paul', lastName='thompson', dob='1974-12-12', ssn='222222222', primaryPhone='2222222222', seondaryPhone='null', email='paul@paul.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='yes', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, CustomerAccount{id=4, firstName='Mary', lastName='Hill', dob='1996-12-23', ssn='333333333', primaryPhone='3333333333', seondaryPhone='null', email='mary@maryhill.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='no', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, CustomerAccount{id=5, firstName='safadfasf', lastName='kjlkjljlk', dob='2015-09-09', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='sdfds@sdfd.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='350.00', brokerId='null', status='active', dnpEligible='null', dnpAllowed='true', dppStatus='NO', switchHold='NO'}],{X-Total-Count=[4], link=[</api/rest/customerAccounts?page=1&per_page=5>; rel=\"last\",</api/rest/customerAccounts?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@72a34537]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.CreditCheckService.getCreditScore() with result = 0",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getSubCode() with result = 5991712",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AuthorizePaymentGateway: processing payment",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceId() with argument[s] = [20153110200977]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching Customers with search criteria: null",
+            "messageOccurrenceCount": 8
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@ccd000e]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: ConnectCheckTransaction execute is called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@5f8c2815",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@299a43d9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setEndUser() with result = null",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@7957aa57",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.get() with result = <200 OK,AccountReceivable{id=11, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'},{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AuthorizePaymentGateway: processing credit card paymment",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.processPayment() with argument[s] = [com.fluentgrid.repapp.service.dto.PaymentsDTO@b797c0c]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching Customers with search criteria: BY_EVENT_TYPE",
+            "messageOccurrenceCount": 9
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableResource: REST request to get AccountReceivable : 11",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with argument[s] = []",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@6cfd08e9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableService: registering with payment service",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " WebConfigurer: Initializing Metrics registries",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.RepInvoiceResource.getOutstandingAmount() with argument[s] = [5]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@63b4b9c6]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.CreditCheckService.getCreditScore() with argument[s] = [com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@13461703]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: org.springframework.boot.actuate.audit.AuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=Thu Sep 10 18:45:57 IST 2015, principal=<unknown>, type=AUTHENTICATION_FAILURE, data={type=org.springframework.security.authentication.AuthenticationCredentialsNotFoundException, message=An Authentication object was not found in the SecurityContext}]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with argument[s] = [77011, 5401 WILSON LN]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_EVENT_TYPE, [10]]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.saveEnrolDepoistPaymentTransaction() with argument[s] = [CustomerAccount{id=5, firstName='safadfasf', lastName='kjlkjljlk', dob='2015-09-09', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='sdfds@sdfd.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='350', brokerId='null', status='active', dnpEligible='null', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, com.fluentgrid.repapp.payment.PaymentGatewayResults@185fafd1, 350]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getReferenceNumber() with result = 20153110200977",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.AccountReceivableResource.createAdjustment() with argument[s] = [AccountReceivable{id=null, customerAccountId='2', transactionDate='null', transactionType='null', transactionNumber='null', transactionAmount='10', beginDate='null', endDate='null', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.CustomerAccountResource.get() with result = <200 OK,CustomerAccount{id=5, firstName='safadfasf', lastName='kjlkjljlk', dob='2015-09-09', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='sdfds@sdfd.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='350.00', brokerId='null', status='active', dnpEligible='null', dnpAllowed='true', dppStatus='NO', switchHold='NO'},{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_EVENT_TYPE, [18]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: updateRequestTagValue with [#document: null]",
+            "messageOccurrenceCount": 34
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@3a609ebf10 pairs: {POST /netconnect2_0Demo/servlets/NetConnectServlet HTTP/1.1: null}{Authorization: BASIC Zmx1ZW50Z3JpZDpQaDA1bjJ4QA==}{Cache-Control: no-cache}{Pragma: no-cache}{User-Agent: Java/1.8.0_25}{Host: dm1.experian.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}{Content-type: application/x-www-form-urlencoded}{Content-Length: 1075}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_DESCRIPTION, [Reconnect]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getServerUrl() with argument[s] = []",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getPassword() with argument[s] = []",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EnrolResource.getRatePlans() with result = <200 OK,[RatePlan{id=1, name='Fixed-3months-CenterPoint', contractPeriod='3', description='Fixed plan for 3 months with CenterPoint', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=2, name='Fixed-6months-CenterPoint', contractPeriod='6', description='Fixed paln with 6months-CenterPoint', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=3, name='Fixed-12months-CenterPoint', contractPeriod='12', description='12 months fixed tier plan with CenterPoint', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=4, name='Fixed-24months-CenterPoint', contractPeriod='24', description='Fixed-24months-CenterPoint', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=5, name='FixedTier-3months-CenterPoint', contractPeriod='3', description='FixedTier-3months-CenterPoint', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=6, name='FixedTier-6months-CenterPoint', contractPeriod='6', description='FixedTier-6months-CenterPoint', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=7, name='FixedTier-12months-CenterPoint', contractPeriod='12', description='FixedTier-12months-CenterPoint', planStartDate='2014-06-01', planEndDate='2099-03-12', status='null', general='false'}, RatePlan{id=8, name='Variable Plan1', contractPeriod='1', description='Variable plan 1', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=9, name='Variable Plan2', contractPeriod='1', description='Variable plan 2', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}, RatePlan{id=10, name='Varaible Plan 3', contractPeriod='1', description='variable plan 3', planStartDate='2014-06-01', planEndDate='2099-12-31', status='null', general='false'}],{}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@28f90752]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: parseResult with data <?xml version=\"1.0\" standalone=\"no\"?><NetConnectResponse xmlns=\"http://www.experian.com/NetConnectResponse\"><CompletionCode>0000</CompletionCode><ReferenceId>20153210200983</ReferenceId><TransactionId>20673457</TransactionId><HostResponse><![CDATA[1100042091015100209TTX1061420153210200983@1110055AB 0X   NXXXXXXX19KJLKJLJLK,SAFADFASF08Approved@13000230657P89719492EV@361007237600037 INPUT YOB NOT USED CONSUMER YOB NOT IN RANGE (14 - 120)@361006230500030 CKPT: INPUT SSN INVALID-9 DIGITS ARE THE SAME@361004607340007 *****  NO RECORD FOUND  *****@382006099        001 C2260000000000206011500000C41214      @950001600800376@]]></HostResponse></NetConnectResponse>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableResource: REST request to reverse AccountReceivable : 11",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getPassword() with result = Ph05n2x@",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.PaymentService.saveCustomerPaymentOptions() with result = null",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.get() with result = <200 OK,AccountReceivable{id=8, customerAccountId='2', transactionDate='2015-02-19', transactionType='invoice', transactionNumber='5', transactionAmount='286.57', beginDate='2015-01-17', endDate='2015-02-18', kwhAmount='null', previousBalance='29.63', currentBalance='316.20', esiId'null', description='null'},{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " SegmentParser: parseSegement125 called with 12500220288P01121004W",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@540212be]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " WebConfigurer: Registering Metrics Filter",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.ContractResource.getContracts() with result = <200 OK,[Contract{id=2, esiId='1008901012126307617100', contractTypeId='1', startDate='2014-10-01', endDate='2099-12-31', promotionId='null', status='active', customerAccountId='2', customDate='false', dnpRnpStatus='pending_reconnect', dnpRnpId='20150307230532'}],{}>",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.CustomerAccountResource.get() with argument[s] = [2]",
+            "messageOccurrenceCount": 24
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@5f3f57ff]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " DppService: registering with payment service",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with argument[s] = [77011, 5403]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.PaymentResource.getWallet() with argument[s] = [5]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.ContractResource.getContracts() with argument[s] = [2]",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectCreditCheck: getCreditScoreOfCustomer called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@13461703",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableResource: REST request to save AccountReceivable : AccountReceivable{id=null, customerAccountId='2', transactionDate='null', transactionType='null', transactionNumber='null', transactionAmount='10', beginDate='null', endDate='null', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching customers by using given name",
+            "messageOccurrenceCount": 8
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " TdspEsiidResource: REST request to TdspEsiid : 1008901012126307617100",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " SegmentParser: parseSegement111 called with 1110048AC 1XN  YXXXXXXX12HELEN,WILLIE08Approved",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@1c14012d5 pairs: {GET /version.jsp?version=3.2.5&m=9efc8140-7a3b-48c5-8e64-5dcd114c3efe&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@310009535 pairs: {GET /version.jsp?version=3.2.5&m=431f03b2-78c2-4875-be04-3dbfbeaa1477&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getPreamble() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " Http401UnauthorizedEntryPoint: Pre-authenticated entry point called. Rejecting access",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: org.springframework.boot.actuate.audit.AuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=Thu Sep 10 18:45:55 IST 2015, principal=<unknown>, type=AUTHENTICATION_FAILURE, data={type=org.springframework.security.authentication.AuthenticationCredentialsNotFoundException, message=An Authentication object was not found in the SecurityContext}]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableService: addFuturedate account recceivable with future date AccountReceivable{id=null, customerAccountId='2', transactionDate='null', transactionType='null', transactionNumber='null', transactionAmount='10', beginDate='null', endDate='null', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " WebConfigurer: Registering GZip Filter",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " TdspEsiidResource: REST request to TdspEsiid : 1008901006900889980114",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventssByCustomerAccountId() with result = <200 OK,[Events{id=3, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description=' The account has been created for user null account id  null  '}, Events{id=2, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='null'}, Events{id=1, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='null'}],{X-Total-Count=[3], link=[</app/rest/eventssByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</app/rest/eventssByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.getAccountReceivablesByCustomerAccountId() with result = <200 OK,[AccountReceivable{id=12, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=11, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=10, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=8, customerAccountId='2', transactionDate='2015-02-19', transactionType='invoice', transactionNumber='5', transactionAmount='286.57', beginDate='2015-01-17', endDate='2015-02-18', kwhAmount='null', previousBalance='29.63', currentBalance='316.20', esiId'null', description='null'}, AccountReceivable{id=5, customerAccountId='2', transactionDate='2015-02-03', transactionType='payment', transactionNumber='2232307564', transactionAmount='-150.00', beginDate='null', endDate='null', kwhAmount='null', previousBalance='179.63', currentBalance='29.63', esiId'null', description='null'}],{X-Total-Count=[6], link=[</api/rest/accountReceivablesByCustomerAccountId?page=2&per_page=5>; rel=\"next\",</api/rest/accountReceivablesByCustomerAccountId?page=2&per_page=5>; rel=\"last\",</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@72a34537]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getOpInitials() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceNumber() with result = null",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, null, [adj]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@5ab3821d10 pairs: {POST /netconnect2_0Demo/servlets/NetConnectServlet HTTP/1.1: null}{Authorization: BASIC Zmx1ZW50Z3JpZDpQaDA1bjJ4QA==}{Cache-Control: no-cache}{Pragma: no-cache}{User-Agent: Java/1.8.0_25}{Host: dm1.experian.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}{Content-type: application/x-www-form-urlencoded}{Content-Length: 1066}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@26bce60d]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.AccountReceivableResource.get() with argument[s] = [8]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " RepInvoiceResource: REST request to get OutstandingAmount : 5",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " RepInvoiceResource: REST request to get OutstandingAmount : 2",
+            "messageOccurrenceCount": 24
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, null, [test]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getEndUser() with result = admin",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@6cfd08e9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.CustomerAccountResource.getAll() with argument[s] = [1, 5]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.AccountReceivableService.addFutureDateAccountRecivable() with result = null",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getSubCode() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@7e264d3d10 pairs: {null: HTTP/1.1 200 OK}{Server: Oracle-iPlanet-Web-Server/7.0}{Date: Thu, 10 Sep 2015 15:02:11 GMT}{Set-cookie: ctrust-session-v002b=AAAAAgABAEAHFMFChrVsIRJAxh6IVqK1xpHJhbMDOL4lYNJNMye40T4k32kqhC5A1%2FEmD294zo2MI1uOKh%2BqYwggFCZfqd1f; secure; domain=.experian.com; path=/}{X-Backside-Transport: OK OK}{Server: Apache-Coyote/1.1}{Content-type: text/html}{X-Client-IP: 10.8.113.77}{X-Global-Transaction-ID: 6993746}{Transfer-encoding: chunked}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: org.springframework.boot.actuate.audit.AuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=Thu Sep 10 18:37:35 IST 2015, principal=<unknown>, type=AUTHENTICATION_FAILURE, data={type=org.springframework.security.authentication.AuthenticationCredentialsNotFoundException, message=An Authentication object was not found in the SecurityContext}]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [0, com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@6cfd08e9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: createRequest is called",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@2e85e3f1]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: org.springframework.boot.actuate.audit.AuditEventRepository.add() with argument[s] = [AuditEvent [timestamp=Thu Sep 10 16:41:05 IST 2015, principal=<unknown>, type=AUTHENTICATION_FAILURE, data={type=org.springframework.security.authentication.AuthenticationCredentialsNotFoundException, message=An Authentication object was not found in the SecurityContext}]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableService: updatePayment with  CustomerAccount{id=5, firstName='safadfasf', lastName='kjlkjljlk', dob='2015-09-09', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='sdfds@sdfd.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='350', brokerId='null', status='active', dnpEligible='null', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, 350",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: REST request to get events : 5",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: REST request to get events : 2",
+            "messageOccurrenceCount": 23
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with argument[s] = [77011, 5401]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " SegmentParser: parseSegement111 called with 1110055AB 0X   NXXXXXXX19KJLKJLJLK,SAFADFASF08Approved",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventTypesResource.getAll() with argument[s] = []",
+            "messageOccurrenceCount": 27
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventsByCustomerAccountId() with result = <200 OK,[Events{id=1, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='adjustment Adjustment for amount 10 has been added'}],{X-Total-Count=[1], link=[</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 3
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@1d444652]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@33e6bd36",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getDepositAmount() with argument[s] = [EnrolDTO{esiid='1008901006900889980112', firstName='WILLIE', lastName='HELEN', email='sekhar.r@phoenix.in', servAdd='AddressDTO{address='5401 WILSON LN', city='SPRING', state='TX', zipcode='77011'}', billAdd='AddressDTO{address='1202 AURORA ST', city='HOUSTON', state='TX', zipcode='77009'}'}]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [0, com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@76eadc5a]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " MailConfiguration: Configuring mail server",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: parseResult with data <?xml version=\"1.0\" standalone=\"no\"?><NetConnectResponse xmlns=\"http://www.experian.com/NetConnectResponse\"><CompletionCode>0000</CompletionCode><ReferenceId>20153110200977</ReferenceId><TransactionId>20673443</TransactionId><HostResponse><![CDATA[1100042091015100114TTX1061420153110200977@1110048AC 1XN  YXXXXXXX12HELEN,WILLIE08Approved@1200034MTRMS0843768664C7         @12500220288P01121004W@3220018 666438798@335008814WILLIE S HELEN1964A2167138633147U A2167138642022I A2165128697979P E61207081964@3360081021307152003700820S 5115002371202 AURORA ST  /HOUSTON TX 770091739D207201@361002844160044 AKA: FILICE@361002844160044 AKA: FELICE@36100207708ID MATCH@36100485236ACCOUNTS CLOSED BY CONSUMER 02 TIMES@382006099        001 C2260601150000006011500000C31219771985@950001601300533@]]></HostResponse></NetConnectResponse>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [0, com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@70840a5a]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EnrolResource.enrol() with result = <201 Created,5,{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.CustomerAccountResource.get() with argument[s] = [5]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@540212be]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@6cfd08e9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getVendorNumber() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@30a534c75 pairs: {GET /version.jsp?version=3.2.5&m=4f37b6f2-663d-4452-8027-49e0387c777e&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.PaymentService.processPayment() with result = com.fluentgrid.repapp.payment.PaymentGatewayResults@185fafd1",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableResource: REST request to get AccountReceivable : 8",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.PaymentResource.getWallet() with argument[s] = [2]",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setEndUser() with argument[s] = [admin]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.DppService.register() with result = null",
+            "messageOccurrenceCount": 21
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " DatabaseConfiguration: Configuring Liquibase",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceNumber() with argument[s] = [20153210200983]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@7a41d8f5 pairs: {GET /version.jsp?version=3.2.5&m=3bb2e88b-e8cd-4f73-9dd1-49868321beb0&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getServerUrl() with result = http://www.experian.com/lookupServlet1?lookupServiceName=AccessPoint&lookupServiceVersion=1.0&serviceName=NetConnectDemo&serviceVersion=2.0&responseType=text/plain",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AccountReceivableResource: REST request to get AccountReceivable : 2",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getReferenceId() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " CreditCheckService: getCreditScore called with parameters {0}",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching Customers with search criteria: BY_DESCRIPTION",
+            "messageOccurrenceCount": 8
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@1280bae3]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.enrol() with argument[s] = [EnrolDTO{esiid='1008901006900889980114', firstName='safadfasf', lastName='kjlkjljlk', email='sdfds@sdfd.com', servAdd='AddressDTO{address='5404 JONATHAN LN', city='HOUSTON', state='TX', zipcode='77011'}', billAdd='null'}, SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3dbc2ae5]], com.fluentgrid.repapp.web.filter.gzip.GZipServletResponseWrapper@3b86e403]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@28f90752]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.ChargeTypesResource.getAll() with result = [ChargeTypes{id=1, name='Energy Charge Per KWh', recurring='true', taxable='true', chargeApplyType='Kwh'}, ChargeTypes{id=2, name='Monthly Fee', recurring='true', taxable='true', chargeApplyType='flat'}, ChargeTypes{id=3, name='Returned Payment Fee', recurring='false', taxable='true', chargeApplyType='flat'}, ChargeTypes{id=4, name='Disconnect Fee', recurring='false', taxable='true', chargeApplyType='flat'}, ChargeTypes{id=5, name='Reconnect Fee', recurring='false', taxable='true', chargeApplyType='flat'}, ChargeTypes{id=6, name='Bill Copy', recurring='false', taxable='true', chargeApplyType='flat'}, ChargeTypes{id=7, name='Payment History Letter Fee', recurring='false', taxable='true', chargeApplyType='flat'}, ChargeTypes{id=8, name='Late Fee', recurring='false', taxable='true', chargeApplyType='flat'}]",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventTypesResource: REST request to get all EventTypess",
+            "messageOccurrenceCount": 27
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@2db6ba81",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AuthorizeAIMTransaction: AIM result",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " CacheConfiguration: Starting HazelcastCacheManager",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: loadXMLFromString called",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@1d444652]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.CustomerAccountResource.getAll() with result = <200 OK,[CustomerAccount{id=1, firstName='James', lastName='smith', dob='1975-03-23', ssn='111111111', primaryPhone='1111111111', seondaryPhone='null', email='james.smith@smithjames.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='yes', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, CustomerAccount{id=2, firstName='paul', lastName='thompson', dob='1974-12-12', ssn='222222222', primaryPhone='2222222222', seondaryPhone='null', email='paul@paul.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='yes', dnpAllowed='true', dppStatus='NO', switchHold='NO'}, CustomerAccount{id=4, firstName='Mary', lastName='Hill', dob='1996-12-23', ssn='333333333', primaryPhone='3333333333', seondaryPhone='null', email='mary@maryhill.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='no', dnpAllowed='true', dppStatus='NO', switchHold='NO'}],{X-Total-Count=[3], link=[</api/rest/customerAccounts?page=1&per_page=5>; rel=\"last\",</api/rest/customerAccounts?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 6
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getDepositAmount() with argument[s] = [EnrolDTO{esiid='1008901006900889980114', firstName='safadfasf', lastName='kjlkjljlk', email='sdfds@sdfd.com', servAdd='AddressDTO{address='5404 JONATHAN LN', city='HOUSTON', state='TX', zipcode='77011'}', billAdd='null'}]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with result = <200 OK,[5401 WILSON LN~SPRING~TX~77011~1008901006900889980112~~Residential],{}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventTypesResource.getAll() with result = [EventTypes{id=1, name='Account Creation', eventType='account creation', description=' The account has been created for user %s account id  %s  ', category='customer', type='account'}, EventTypes{id=2, name='Deposit Payment', eventType='deposit payment', description=' Deposit has been payed for the amount  %s', category='customer', type='account'}, EventTypes{id=3, name='Cancel Enrollment', eventType='cancel enrollment', description='Enrollment cancellation request received on %s for ESI ID %s', category='customer', type='account'}, EventTypes{id=4, name='Invoice Payment', eventType='invoice payment', description=' Received amount %s on %s by %s payment', category='customer', type='account'}, EventTypes{id=5, name='Address Change', eventType='address change', description='Address has been changed with new address %s', category='customer', type='account'}, EventTypes{id=6, name='Email Change', eventType='email change', description=' Customer Email has been changed with new email %s', category='customer', type='account'}, EventTypes{id=7, name='New Service Connection', eventType='new service connection', description='Adding a New service connection having ESI ID %s has been Initiated on %s', category='customer', type='contract'}, EventTypes{id=8, name='Contract Renewal', eventType='contract renewal', description='Contract %s has been renewed with rateplan id %s', category='customer', type='contract'}, EventTypes{id=9, name='Service Order Moveout', eventType='service order moveout', description='Received move out request for the ESI ID %s on %s', category='customer', type='contract'}, EventTypes{id=10, name='Service Order Meter Read', eventType='service order meter read', description=' Service order meter read request is received for the ESI ID %s', category='customer', type='contract'}, EventTypes{id=11, name='Update Payment Preferences', eventType='update payment preferences', description='Payment preferences has been updated %s', category='customer', type='account'}, EventTypes{id=12, name='Update Alert Preferences', eventType='update alert preferences', description=' Alert preferences %s', category='customer', type='account'}, EventTypes{id=13, name='Portal Login', eventType='portal login', description='Portal has been logged in with id %s', category='customer', type='account'}, EventTypes{id=14, name='Portal Logout', eventType='portal logout', description='Portal has been logged out with id %s', category='customer', type='account'}, EventTypes{id=15, name='Portal Change Password', eventType='portal change password', description='Password has been changed', category='customer', type='account'}, EventTypes{id=16, name='DNP Notice', eventType='DNP Notice', description='DNP Notice for ESI ID is %s dispatched to customer', category='customer', type='contract'}, EventTypes{id=17, name='DNP Ignored', eventType='DNP Ignored', description='DNP  is ignored for the ESI ID %s', category='customer', type='contract'}, EventTypes{id=18, name='Disconnect', eventType='Disconnect', description='Connection with ESI ID %s has been disconnected', category='customer', type='contract'}, EventTypes{id=19, name='Reconnect', eventType='Reconnect', description='Connection  with ESI ID %s has been reconnected', category='customer', type='contract'}, EventTypes{id=20, name='Initiate DPP', eventType='Inititate DPP', description='Deferred Payment Plan with %s installment amount for %s installments has been initiated ', category='customer', type='account'}, EventTypes{id=21, name='Invoice Reversal', eventType='Invoice Reversal', description='Invoice %s has been reversed', category='customer', type='account'}, EventTypes{id=22, name='Adjustment Reversal', eventType='Adjustment Reversal', description='Adjustment %s has been reversed for amount %s', category='customer', type='account'}, EventTypes{id=23, name='Payment Reversal', eventType='Payment Reversal', description='Payment amount %s has been reversed', category='customer', type='account'}, EventTypes{id=24, name='Credit Check', eventType='Credit Check', description='Credit %s has been checked', category='customer', type='account'}, EventTypes{id=25, name='Move In Switch', eventType='Move-in/Switch', description='Switch %s has been moved in', category='customer', type='account'}, EventTypes{id=26, name='Switch Response', eventType='Switch Response', description='Switch %s has been responded ', category='customer', type='account'}, EventTypes{id=27, name='Invoice Generation', eventType='Invoice generation', description='Invoice %s has been generated for amount %s pay by date %s', category='customer', type='account'}, EventTypes{id=28, name='Contract Expired', eventType='Contract expired', description='Contract with ESI ID %s has been expired moving customer to default variable plan', category='customer', type='contract'}, EventTypes{id=29, name='Default Contract assigned', eventType='Default contract assigned', description='Default contract %s has been assigned', category='customer', type='account'}, EventTypes{id=30, name='Add Manual Adjustment', eventType='Add manual adjustment', description=' adjustment %s for amount %s has been added', category='customer', type='account'}]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@2e85e3f1]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@28f90752]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [0, com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@26bce60d]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_EVENT_TYPE, [15]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: REST request to get eventss : 2",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@76eadc5a]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@51813065]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@965ef8a5 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 11:09:18 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.PaymentResource.getWallet() with result = <200 OK,{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@625cb21b10 pairs: {null: HTTP/1.1 200 OK}{Server: Oracle-iPlanet-Web-Server/7.0}{Date: Thu, 10 Sep 2015 15:01:13 GMT}{Set-cookie: ctrust-session-v002b=AAAAAgABAEDJYMqEQ6XE3Bbj8p9%2BtOV3TVpj5a3VmCIlBER9rFElAgFqbjkYYW41744lrVYQ%2FT3K9zqvU9tGWuXL81wvsk%2Fw; secure; domain=.experian.com; path=/}{X-Backside-Transport: OK OK}{Server: Apache-Coyote/1.1}{Content-type: text/html}{X-Client-IP: 10.8.113.77}{X-Global-Transaction-ID: 6517475}{Transfer-encoding: chunked}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectTransaction: getConnectCheck transaction",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with argument[s] = [77011, 5404]",
+            "messageOccurrenceCount": 3
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@5387ccad5 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 12:41:21 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@7af9595d]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@674b16e5 pairs: {GET /version.jsp?version=3.2.5&m=07911cf0-f8a5-4ce6-a887-7a308e6bb0ce&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " CustomerAccountResource: REST request to get CustomerAccount : 2",
+            "messageOccurrenceCount": 24
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.UserService.getUserWithAuthorities() with argument[s] = []",
+            "messageOccurrenceCount": 48
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " CustomerAccountResource: REST request to get CustomerAccount : 5",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getVendorNumber() with result = 577",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.AccountReceivableService.addAccountRecivableAdjustmentRemove() with result = null",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.CreditCheckService.getCreditScore() with argument[s] = [com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@3f21cd6d]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@3ba46845]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with argument[s] = [77011, 5404 JONATHAN LN]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_DESCRIPTION, [adjustment]]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " DnpRnpService: registering with Payment Service",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ContractTypesResource: REST request to get all ContractTypes",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getReferenceId() with result = 20153210200983",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceNumber() with argument[s] = [20153110200977]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceNumber() with argument[s] = [20155210180947]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_EVENT_TYPE, [1]]",
+            "messageOccurrenceCount": 3
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.geteventsByCustomerAccountId() with result = <200 OK,[Events{id=3, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description=' The account has been created for user safadfasf account id  5  '}, Events{id=4, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='null'}, Events{id=5, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description=' Deposit has been payed for the amount  350'}],{X-Total-Count=[3], link=[</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</app/rest/eventsByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceId() with argument[s] = [20155410180979]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.AccountResource.getAccount() with argument[s] = []",
+            "messageOccurrenceCount": 48
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@4640cc145 pairs: {GET /version.jsp?version=3.2.5&m=1c268609-49c0-4b8e-a7c2-1b1d13361eb7&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.search() with result = <200 OK,[Events{id=2, esild='null', role='ROLE_ADMIN', clientId='repappapp', userName='admin', description='adjustment Reconnect Fee for amount 10 has been added'}],{X-Total-Count=[1], link=[</api/rest/events?page=1&per_page=5>; rel=\"last\",</api/rest/events?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getEndUser() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.createAdjustment() with result = null",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.ContractTypesResource.getAll() with argument[s] = []",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getRatePlans() with argument[s] = [77011, 1, null]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.getAccountReceivablesByCustomerAccountId() with result = <200 OK,[AccountReceivable{id=13, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=12, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=11, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=10, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=8, customerAccountId='2', transactionDate='2015-02-19', transactionType='invoice', transactionNumber='5', transactionAmount='286.57', beginDate='2015-01-17', endDate='2015-02-18', kwhAmount='null', previousBalance='29.63', currentBalance='316.20', esiId'null', description='null'}],{X-Total-Count=[7], link=[</api/rest/accountReceivablesByCustomerAccountId?page=2&per_page=5>; rel=\"next\",</api/rest/accountReceivablesByCustomerAccountId?page=2&per_page=5>; rel=\"last\",</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: ConnectCheckTransaction execute is called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@1b486981",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " WebConfigurer: Registering Metrics Servlet",
+            "messageOccurrenceCount": 7
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " DnpRnpService: Received payment notification",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.search() with argument[s] = [1, 5, BY_DESCRIPTION_AND_EVENT_TYPE, [Reconnect, 1]]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.TdspEsiidResource.getEsiid() with result = <200 OK,TdspEsiid{id=1, esiid='1008901006900889980114', address='5404 JONATHAN LN', addressOverflow='', city='HOUSTON', state='TX', zipcode='77011', duns='957877905', meterReadCycle='4', status='Active', premiseType='Residential', powerRegion='ERCOT', stationcode='AD', stationname='ALDINE', metered='Y', openServiceOrders='', polrCustomerClass='Residential', settlementAmsIndicator='Y', tdspAmsIndicator='AMSR', switchHoldIndicator='N'},{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " AsyncConfiguration: Creating Async Task Executor",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.geteventsByCustomerAccountId() with argument[s] = [2, 1, 5]",
+            "messageOccurrenceCount": 23
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EventsResource.search() with result = <200 OK,[],{X-Total-Count=[0], link=[</api/rest/events?page=0&per_page=5>; rel=\"last\",</api/rest/events?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 14
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " EventsResource: Searching customers by using customer Type",
+            "messageOccurrenceCount": 9
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.CreditCheckService.getCreditScore() with result = 288",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@521a506c]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [0, com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@1280bae3]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.RepInvoiceResource.getOutstandingAmount() with result = <200 OK,RepInvoice{id=5, customerAccountId='2', invoiceFromDate='2015-01-17', invoiceToDate='2015-02-18', repBillingTotal='161.70', tduInvoicePassThroughTotal='76.00', tduInvoiceNonPassThroughTotal='0.00', adjustmentsTotal='0.00', discountsTotal='0.00', taxesTotal='48.87', invoiceSummaryTotal='286.57', previousInvoiceAmount='179.63', paymentAmount='150.00', outstandingAmount='316.20', payByDateAmount='316.20', payByDate='2015-03-04', afterPayByDateAmount='332.01', status='active'},{}>",
+            "messageOccurrenceCount": 24
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@521a506c]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@5b2f604c5 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 12:33:31 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@612ac38b]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [1, com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@5f3f57ff]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.ContractTypesResource.getAll() with result = [ContractTypes{id=1, contractType='Residential'}, ContractTypes{id=2, contractType='Small Commercial'}, ContractTypes{id=3, contractType='Commercial'}]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getPreamble() with result = TEST",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@24791fd65 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 11:41:07 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getReferenceNumber() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.AccountReceivableResource.get() with argument[s] = [11]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EnrolResource.getDepositAmount() with result = <200 OK,350,{}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@7af9595d]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@3b1d93365 pairs: {GET /version.jsp?version=3.2.5&m=ab26b3e5-178f-4aa7-9604-05b970e2da80&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " DatabaseConfiguration: Configuring Datasource",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.RepInvoiceResource.getOutstandingAmount() with result = <200 OK,{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@72237be8]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.ChargeTypesResource.getAll() with argument[s] = []",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " PaymentService: saving enrollment deposit transaction for customer ",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@7e76a66f]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@14ca88bc]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ContractResource: REST request to get Contract By customerAccountId:2",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@990b86b]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.CreditCheckService.getCreditScore() with argument[s] = [com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@1b486981]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectHttpClient: getActualURL called with http://www.experian.com/lookupServlet1?lookupServiceName=AccessPoint&lookupServiceVersion=1.0&serviceName=NetConnectDemo&serviceVersion=2.0&responseType=text/plain",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.AccountReceivableService.addAccountRecivableAdjustmentRemove() with argument[s] = [AccountReceivable{id=11, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EnrolResource.getDepositAmount() with argument[s] = [EnrolDTO{esiid='1008901006900889980114', firstName='sekaht', lastName='R', email='sekhar.r@phoenix.in', servAdd='AddressDTO{address='5404 JONATHAN LN', city='HOUSTON', state='TX', zipcode='77011'}', billAdd='null'}]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.CustomerAccountResource.get() with result = <200 OK,CustomerAccount{id=2, firstName='paul', lastName='thompson', dob='1974-12-12', ssn='222222222', primaryPhone='2222222222', seondaryPhone='null', email='paul@paul.com', communicationPreference='electronic', languagePreference='english', customerType='owner', depositAmount='250.00', brokerId='null', status='active', dnpEligible='yes', dnpAllowed='true', dppStatus='NO', switchHold='NO'},{}>",
+            "messageOccurrenceCount": 24
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@612ac38b]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " Application: Running with Spring Boot v1.1.9.RELEASE, Spring v4.0.8.RELEASE",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.getAccountReceivablesByCustomerAccountId() with result = <200 OK,[AccountReceivable{id=10, customerAccountId='2', transactionDate='null', transactionType='Adjustment', transactionNumber='null', transactionAmount='10.00', beginDate='2018-09-10', endDate='2018-09-10', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}, AccountReceivable{id=8, customerAccountId='2', transactionDate='2015-02-19', transactionType='invoice', transactionNumber='5', transactionAmount='286.57', beginDate='2015-01-17', endDate='2015-02-18', kwhAmount='null', previousBalance='29.63', currentBalance='316.20', esiId'null', description='null'}, AccountReceivable{id=5, customerAccountId='2', transactionDate='2015-02-03', transactionType='payment', transactionNumber='2232307564', transactionAmount='-150.00', beginDate='null', endDate='null', kwhAmount='null', previousBalance='179.63', currentBalance='29.63', esiId'null', description='null'}, AccountReceivable{id=2, customerAccountId='2', transactionDate='2015-01-17', transactionType='invoice', transactionNumber='2', transactionAmount='179.63', beginDate='2014-12-15', endDate='2015-01-16', kwhAmount='null', previousBalance='0.00', currentBalance='179.63', esiId'null', description='null'}],{X-Total-Count=[4], link=[</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@e0847a9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getReferenceNumber() with result = 20153210200983",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountReceivableResource.getAccountReceivablesByCustomerAccountId() with result = <200 OK,[AccountReceivable{id=8, customerAccountId='2', transactionDate='2015-02-19', transactionType='invoice', transactionNumber='5', transactionAmount='286.57', beginDate='2015-01-17', endDate='2015-02-18', kwhAmount='null', previousBalance='29.63', currentBalance='316.20', esiId'null', description='null'}, AccountReceivable{id=5, customerAccountId='2', transactionDate='2015-02-03', transactionType='payment', transactionNumber='2232307564', transactionAmount='-150.00', beginDate='null', endDate='null', kwhAmount='null', previousBalance='179.63', currentBalance='29.63', esiId'null', description='null'}, AccountReceivable{id=2, customerAccountId='2', transactionDate='2015-01-17', transactionType='invoice', transactionNumber='2', transactionAmount='179.63', beginDate='2014-12-15', endDate='2015-01-16', kwhAmount='null', previousBalance='0.00', currentBalance='179.63', esiId'null', description='null'}],{X-Total-Count=[3], link=[</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"last\",</api/rest/accountReceivablesByCustomerAccountId?page=1&per_page=5>; rel=\"first\"]}>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ContractResource: REST request to get Contract By customerAccountId:5",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.AccountReceivableService$AccountReceivableObserver@299a43d9]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@552fffc8",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceNumber() with argument[s] = [20155410180979]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getOpInitials() with result = TN",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " PaymentService: processpayment called com.fluentgrid.repapp.service.dto.PaymentsDTO@b797c0c",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getUserName() with argument[s] = []",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getEai() with result = JOKMYOZW",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@4c834e805 pairs: {GET /version.jsp?version=3.2.5&m=e8ef9f29-d6fa-455a-9df5-b4fb12653d50&e=false&l=NULL&p=maven&c=e77989ed21758e78331b20e477fc5582&crsz=A&cssz=A HTTP/1.1: null}{User-Agent: Mozilla/5.0}{Host: versioncheck.hazelcast.com}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [2, com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@72237be8]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@682c8d055 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 14:58:02 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.AccountReceivableResource.getAccountReceivablesByCustomerAccountId() with argument[s] = [2, 1, 5]",
+            "messageOccurrenceCount": 10
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.EnrolResource.getAddresses() with result = <200 OK,[5404 JONATHAN LN~HOUSTON~TX~77011~1008901006900889980114~~Residential],{}>",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.RepInvoiceResource.getOutstandingAmount() with argument[s] = [2]",
+            "messageOccurrenceCount": 24
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@3713bedc",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.repository.CustomAuditEventRepository.auditEventRepository() with result = com.fluentgrid.repapp.repository.CustomAuditEventRepository$1@21046afa",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.CreditCheckService.getCreditScore() with argument[s] = [com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@5f8c2815]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.AccountResource.getAccount() with result = <200 OK,UserDTO{login='admin', firstName='null', lastName='Administrator', email='null', langKey='en', roles=[ROLE_USER, ROLE_ADMIN]},{}>",
+            "messageOccurrenceCount": 48
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@990b86b]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@58e72d365 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 11:42:24 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " PaymentResource: REST request to get wallet : 2",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getEai() with argument[s] = []",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getReferenceId() with result = 20153110200977",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.PaymentResource.getWallet() with result = <200 OK,CustomerPaymentInformation{id=1, paymentType='creditCard', autoPay='false', authorize='true'},{}>",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: getXmlDocument called with <?xml version=\"1.0\" encoding=\"UTF-8\"?> <NetConnectRequest xmlns=\"http://www.experian.com/NetConnect\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.experian.com/NetConnect NetConnect.xsd\"> <EAI>d</EAI><DBHost>d</DBHost><ReferenceId>1</ReferenceId><Request xmlns=\"http://www.experian.com/WebDelivery\" version=\"1.0\"> <Products><ConnectCheck><Subscriber><Preamble>T</Preamble><OpInitials>T</OpInitials><SubCode>5</SubCode></Subscriber><PrimaryApplicant><Name><Surname>H</Surname><First>W</First></Name><SSN>6</SSN><CurrentAddress> <Street>1</Street> <City>H</City> <State>T</State> <Zip>7</Zip> </CurrentAddress> <YOB>1</YOB></PrimaryApplicant><OutputType> <ARF>  <ARFVersion>06</ARFVersion> </ARF></OutputType><Vendor> <VendorNumber>5</VendorNumber> </Vendor><Options> <ReferenceNumber>0</ReferenceNumber><EndUser>s</EndUser> </Options></ConnectCheck> </Products></Request></NetConnectRequest>",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " PaymentResource: REST request to get wallet : 5",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectCreditCheck: getCreditScoreOfCustomer called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@5f8c2815",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ConnectCheckTransaction: ConnectCheckTransaction execute is called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@13461703",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " ChargeTypesResource: REST request to get all ChargeTypess",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.AccountReceivableService.addFutureDateAccountRecivable() with argument[s] = [AccountReceivable{id=null, customerAccountId='2', transactionDate='null', transactionType='null', transactionNumber='null', transactionAmount='10', beginDate='null', endDate='null', kwhAmount='null', previousBalance='null', currentBalance='null', esiId'null', description='null'}]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " UserDetailsService: Authenticating admin",
+            "messageOccurrenceCount": 9
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [0, com.fluentgrid.repapp.service.InvoiceService$InvoiceOberver@14ca88bc]",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: org.springframework.boot.actuate.audit.AuditEventRepository.add() with result = null",
+            "messageOccurrenceCount": 5
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.UserService.getUserWithAuthorities() with result = User{login='admin', password='$2a$10$gSAhZrxMllrbgj/kkK9UceBPpChGWJA7SYIb1Mqo.n5aNLq1/oRrC', firstName='null', lastName='Administrator', email='null', activated='true', langKey='en', activationKey='null'}",
+            "messageOccurrenceCount": 48
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.EventsResource.geteventssByCustomerAccountId() with argument[s] = [2, 1, 5]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.CustomerAccountResource.getAll() with argument[s] = [null, null]",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.service.dto.CreditCheckConfig.getDbHost() with result = STAR",
+            "messageOccurrenceCount": 2
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.ContractResource.getContracts() with result = <200 OK,[Contract{id=5, esiId='1008901006900889980114', contractTypeId='1', startDate='2015-09-09', endDate='null', promotionId='null', status='Inactive', customerAccountId='5', customDate='false', dnpRnpStatus='none', dnpRnpId='null'}],{}>",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.PaymentService.reigsterObserver() with argument[s] = [3, com.fluentgrid.repapp.service.DppService$DppPaymentObserver@5996d6f2]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Exit: com.fluentgrid.repapp.web.rest.TdspEsiidResource.getEsiid() with result = <200 OK,TdspEsiid{id=103, esiid='1008901012126307617100', address='2630       BISSONNET            ST    #158', addressOverflow='', city='HOUSTON', state='TX', zipcode='770051334', duns='957877905', meterReadCycle='11', status='Inactive', premiseType='Residential', powerRegion='ERCOT', stationcode='KB', stationname='KIRBY REIT', metered='Y', openServiceOrders='', polrCustomerClass='Residential', settlementAmsIndicator='Y', tdspAmsIndicator='AMSR', switchHoldIndicator='N'},{}>",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.dto.CreditCheckConfig.setReferenceId() with argument[s] = [20153210200983]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.web.rest.TdspEsiidResource.getEsiid() with argument[s] = [1008901012126307617100]",
+            "messageOccurrenceCount": 22
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectXmlDocument: getNodeValue called",
+            "messageOccurrenceCount": 4
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@7581d7055 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 10:04:08 GMT}",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " NetConnectCreditCheck: getCreditScoreOfCustomer called with com.fluentgrid.repapp.creditcheck.dto.CreditCheckRequestDTO@1b486981",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " LoggingAspect: Enter: com.fluentgrid.repapp.service.DppService.register() with argument[s] = [com.fluentgrid.repapp.service.DnpRnpService$DnpRnpObserver@7e76a66f]",
+            "messageOccurrenceCount": 1
+        },
+        {
+            "logType": "DEBUG",
+            "messageDescription": " HttpURLConnection: sun.net.www.MessageHeader@3f4bbcb35 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/xml;charset=UTF-8}{Transfer-Encoding: chunked}{Date: Thu, 10 Sep 2015 12:19:37 GMT}",
+            "messageOccurrenceCount": 1
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<div class="custom">
+  <div class = "p-5 mb-4 bg-body-tertiary rounded-3">
+    <h1 class="display-5 fw-bold">CGI ASSESSMENT</h1>
+    <div class="row mb-4">
+      <div class = "col">
+         <span class="me-4 d-inline-block">
+           <button class = "me-4 d-inline-block" type="submit" class="btn btn-primary" (click)="getRecipes()">Get All Recipes </button>
+         </span>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class = "col">
+        <span class="me-4 d-inline-block">
+          <h4> Enter the input ingredients below. Comma Separated for multiple inputs </h4>
+          <input class = "form-control" type="text" [(ngModel)]="ingredient">
+        </span>
+          <span>
+            <button class ="me-4 d-inline-block" type="submit" class="btn btn-primary" (click)="getRecipesByIngredient()">Get Receipes by Ingredient</button>
+          </span>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class = "col">
+        <button type="submit" class="btn btn-primary" (click)="clearRecipes()">Clear Recipes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="center" *ngIf="recipesDetails">
+  <p>Recipe Details</p>
+  <pre>{{ recipesDetails | json }}</pre>
+</div>
+
+<div class="center" *ngIf="errorResponse">
+  <p>Error Details</p>
+  <pre>{{ errorResponse | json }}</pre>
+</div>
+
+
+
+
+
+
+
+
+

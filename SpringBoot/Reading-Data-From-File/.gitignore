@@ -1,0 +1,17 @@
+*.class
+.idea
+target
+.tmp
+*.iml
+.settings
+.project
+.classpath
+
+*.iml
+.idea/
+target/
+dist/
+**/.DS_Store
+**/node_modules
+**/node
+**/package-lock.json
