@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "0ca19678-0cf9-4e3e-b487-b65547f71ae3",
+		"name": "Transactional-Spring-JPA-DBC-Pagination",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8047554"
+	},
+	"item": [
+		{
+			"name": "saveEmployeeWithCompensation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"employees\":[\n        {\n            \"name\":\"Mithun\",\n            \"age\":30,\n            \"employeeId\":1,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":1,\n                \"salary\":25000,\n                \"costToTheCompany\":300000,\n                \"compensationId\":73\n            },\n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":2134345,\n                    \"employeeIdAcc\":1,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":2345675432,\n                    \"employeeIdAcc\":1,\n                    \"bankName\":\"Citi\"\n                }\n            ]\n        },\n        {\n            \"name\":\"ram\",\n            \"age\":20,\n            \"employeeId\":2,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":2,\n                \"salary\":15000,\n                \"costToTheCompany\":180000,\n                 \"compensationId\":74\n            },\n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":3456465634,\n                    \"employeeIdAcc\":2,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":3453456343,\n                    \"employeeIdAcc\":2,\n                    \"bankName\":\"Citi\"\n                \n                }\n            ]\n        },\n        {\n            \"name\":\"kumar\",\n            \"age\":32,\n            \"employeeId\":3,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":3,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            },\n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":3456757,\n                    \"employeeIdAcc\":3,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":345643,\n                    \"employeeIdAcc\":3,\n                    \"bankName\":\"Citi\"\n                \n                }\n            ]\n        },\n\n        {\n            \"name\":\"ku435mar\",\n            \"age\":32,\n            \"employeeId\":4,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":4,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            },\n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":345,\n                    \"employeeIdAcc\":4,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":2345356,\n                    \"employeeIdAcc\":4,\n                    \"bankName\":\"Citi\"\n                \n                }\n            ]\n        },\n\n        {\n            \"name\":\"erwrtt\",\n            \"age\":32,\n            \"employeeId\":5,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":5,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            },\n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":56756775667,\n                    \"employeeIdAcc\":5,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":3456546,\n                    \"employeeIdAcc\":5,\n                    \"bankName\":\"Citi\"\n                \n                }\n            ]\n        },\n        {\n            \"name\":\"ksdfgumar\",\n            \"age\":32,\n            \"employeeId\":63,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":63,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            },\n            \n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":456645345,\n                    \"employeeIdAcc\":63,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":345546456546,\n                    \"employeeIdAcc\":63,\n                    \"bankName\":\"Citi\"\n                \n                }\n            ]\n        },\n\n        {\n            \"name\":\"ewrtyrytyty\",\n            \"age\":32,\n            \"employeeId\":6,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":6,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            },\n            \"bankAccounts\":[\n                {\n                    \"accountNumber\":3546365645,\n                    \"employeeIdAcc\":6,\n                    \"bankName\":\"HDFC\"\n                \n                },\n                  {\n                    \"accountNumber\":4355365476576578,\n                    \"employeeIdAcc\":6,\n                    \"bankName\":\"Citi\"\n                \n                }\n            ]\n        }\n    ]\n}\n\n        ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveEmployeeWithCompensationWithoutAccountNumbers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"employees\":[\n        {\n            \"name\":\"Mithun\",\n            \"age\":30,\n            \"employeeId\":1,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":1,\n                \"salary\":25000,\n                \"costToTheCompany\":300000,\n                \"compensationId\":73\n            }\n        },\n        {\n            \"name\":\"ram\",\n            \"age\":20,\n            \"employeeId\":2,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":2,\n                \"salary\":15000,\n                \"costToTheCompany\":180000,\n                 \"compensationId\":74\n            }\n        },\n        {\n            \"name\":\"kumar\",\n            \"age\":32,\n            \"employeeId\":3,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":3,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"ku435mar\",\n            \"age\":32,\n            \"employeeId\":4,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":4,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"erwrtt\",\n            \"age\":32,\n            \"employeeId\":5,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":5,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"ksdfgumar\",\n            \"age\":32,\n            \"employeeId\":63,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":63,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"ewrtyrytyty\",\n            \"age\":32,\n            \"employeeId\":6,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":6,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"kumytrkjnhltar\",\n            \"age\":32,\n            \"employeeId\":7,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":7,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"rstjfncgbdfg\",\n            \"age\":32,\n            \"employeeId\":8,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":8,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"xfgnfglblcghmnlcghmn\",\n            \"age\":32,\n            \"employeeId\":9,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":9,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"fghghjhm\",\n            \"age\":32,\n            \"employeeId\":11,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":11,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"5467\",\n            \"age\":32,\n            \"employeeId\":10,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":10,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"dfghfncbfbvxxvcbcgnvhvbcx\",\n            \"age\":32,\n            \"employeeId\":12,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":12,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"zdfkjbsdfkgjnbsrgnlsdnfvjkndsv\",\n            \"age\":32,\n            \"employeeId\":14,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":14,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"tyfujkgjhfdg\",\n            \"age\":32,\n            \"employeeId\":13,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":13,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        },\n\n        {\n            \"name\":\"sdfgsdsdfgbdkfbskdfvkxdvdfjhbsdfgjbsdfgbsjdfgjsfvgskdfgkdnkvjfnx\",\n            \"age\":32,\n            \"employeeId\":15,\n            \"employeeCompensation\":{\n                \"employeeIdComp\":15,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Employees\":[\n        {\n            \"name\":\"Mithun\",\n            \"age\":30,\n            \"employeeId\":1,\n            \"employeeCompensation\":{\n                \"employeeId\":1,\n                \"salary\":25000,\n                \"costToTheCompany\":300000,\n                \"compensationId\":73\n            }\n        },\n        {\n            \"name\":\"ram\",\n            \"age\":20,\n            \"employeeId\":2,\n            \"employeeCompensation\":{\n                \"employeeId\":2,\n                \"salary\":15000,\n                \"costToTheCompany\":180000,\n                 \"compensationId\":74\n            }\n        },\n        {\n            \"name\":\"kumar\",\n            \"age\":3250,\n            \"employeeId\":3,\n            \"employeeCompensation\":{\n                \"employeeId\":3,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployeeById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Employees\":[\n        {\n            \"name\":\"Mithun\",\n            \"age\":30,\n            \"employeeId\":1,\n            \"employeeCompensation\":{\n                \"employeeId\":1,\n                \"salary\":25000,\n                \"costToTheCompany\":300000,\n                \"compensationId\":73\n            }\n        },\n        {\n            \"name\":\"ram\",\n            \"age\":20,\n            \"employeeId\":2,\n            \"employeeCompensation\":{\n                \"employeeId\":2,\n                \"salary\":15000,\n                \"costToTheCompany\":180000,\n                 \"compensationId\":74\n            }\n        },\n        {\n            \"name\":\"kumar\",\n            \"age\":3250,\n            \"employeeId\":3,\n            \"employeeCompensation\":{\n                \"employeeId\":3,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sortAndGetEmployees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Employees\":[\n        {\n            \"name\":\"Mithun\",\n            \"age\":30,\n            \"employeeId\":1,\n            \"employeeCompensation\":{\n                \"employeeId\":1,\n                \"salary\":25000,\n                \"costToTheCompany\":300000,\n                \"compensationId\":73\n            }\n        },\n        {\n            \"name\":\"ram\",\n            \"age\":20,\n            \"employeeId\":2,\n            \"employeeCompensation\":{\n                \"employeeId\":2,\n                \"salary\":15000,\n                \"costToTheCompany\":180000,\n                 \"compensationId\":74\n            }\n        },\n        {\n            \"name\":\"kumar\",\n            \"age\":3250,\n            \"employeeId\":3,\n            \"employeeCompensation\":{\n                \"employeeId\":3,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sortPaginateAndGetEmployees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Employees\":[\n        {\n            \"name\":\"Mithun\",\n            \"age\":30,\n            \"employeeId\":1,\n            \"employeeCompensation\":{\n                \"employeeId\":1,\n                \"salary\":25000,\n                \"costToTheCompany\":300000,\n                \"compensationId\":73\n            }\n        },\n        {\n            \"name\":\"ram\",\n            \"age\":20,\n            \"employeeId\":2,\n            \"employeeCompensation\":{\n                \"employeeId\":2,\n                \"salary\":15000,\n                \"costToTheCompany\":180000,\n                 \"compensationId\":74\n            }\n        },\n        {\n            \"name\":\"kumar\",\n            \"age\":3250,\n            \"employeeId\":3,\n            \"employeeCompensation\":{\n                \"employeeId\":3,\n                \"salary\":50000,\n                \"costToTheCompany\":600000,\n                 \"compensationId\":75\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
