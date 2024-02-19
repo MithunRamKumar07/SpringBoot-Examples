@@ -1,7 +1,5 @@
 package com.mithun.springboot.transactional.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mithun.springboot.transactional.model.Employee;
 import com.mithun.springboot.transactional.model.EmployeeDetailsDto;
 import com.mithun.springboot.transactional.service.EmployeeService;
@@ -13,8 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @Slf4j
 @RestController
 @RequestMapping(value = "/employees")
@@ -23,9 +19,6 @@ public class EmployeeController {
 
     @Autowired
     EmployeeService employeeService;
-
-    @Autowired
-    ObjectMapper objectMapper;
 
     @PostMapping("/save")
     public String saveEmployees(@RequestBody EmployeeDetailsDto employeeDetailsDto){
